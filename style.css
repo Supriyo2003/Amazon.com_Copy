@@ -8,7 +8,22 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
+
+/* Border */
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white
+}
+
+
+/* Box--1 */
 
 .nav-logo {
     height: 50px;
@@ -22,10 +37,23 @@
     width: 100px;
 }
 
-.border {
-    border: 1.5px solid transparent;
+
+
+/* Box--2 */
+
+.d-to{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
 }
 
-.border:hover{
-    border:1.5px solid white
+.IND{
+    font-size: 1.05rem;
+    margin-left: 3px;
+    
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
 }
